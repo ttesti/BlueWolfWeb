@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3NOvxa3kqqCmQ0Efjx48OHTp7/Ij/MfYsGZ1D4Jn/c80U/3aJZNFSV6TQ1p4E29BpQNKw3AilKQWshSNrDQ9wQ==",
+  "dgSpecHash": "nnY5aZ9eEWPwT1l+u68eSX+1evSMOiLbfqf043bvenMdf9/XQDoVFOESd4ADq9V0kPnggyL9uHm/68iXRCZd1A==",
   "success": true,
-  "projectFilePath": "G:\\Bulky\\BlueWolf.Models\\BlueWolf.Models.csproj",
+  "projectFilePath": "G:\\BlueWolfWeb\\BlueWolf.Models\\BlueWolf.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

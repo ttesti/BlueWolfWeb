@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DqfOQZrjPlMBPETvFfNRMtlk+n05Dw4p75n9zKF+IYTGkhkhEj0/iUJQEqpfzL41pn2mnxVVVfXHMo9mMN/uVw==",
+  "dgSpecHash": "ererEeEfp/jrLv00zikFHXQ6nhjOI6W0dqp+tSoc0etr11+SUKH6X8a7RoUsm1jNRZZntM0r5rgIR8zAheKAfw==",
   "success": true,
-  "projectFilePath": "G:\\Bulky\\BulkyApp\\BlueWolfApp.csproj",
+  "projectFilePath": "G:\\BlueWolfWeb\\BulkyApp\\BlueWolfApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tmtes\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\tmtes\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

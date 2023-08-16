@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gmta5Vt0CNig3gDdrU6By3cn5mYB0iVa281BOmzyl80NdubAfBI8ooWqbCZGQ8FTM5YbwFjWTclLMnwgmmZ7zA==",
+  "dgSpecHash": "1M+RNOFUmoyxLIl+BCJU22wKItbU2QMMvwyQPxJQ6N3rysQJUvMqomkQWTJ17Kec/iUlvonfWwD/MCfu8CYxzA==",
   "success": true,
-  "projectFilePath": "G:\\Bulky\\BlueWolf.DataAccess\\BlueWolf.DataAccess.csproj",
+  "projectFilePath": "G:\\BlueWolfWeb\\BlueWolf.DataAccess\\BlueWolf.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tmtes\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\tmtes\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -2917,11 +2917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Bulky\\BlueWolf.Utilites\\BlueWolf.Utilites.csproj",
+      "projectUniqueName": "G:\\BlueWolfWeb\\BlueWolf.Utilites\\BlueWolf.Utilites.csproj",
       "projectName": "BlueWolf.Utilites",
-      "projectPath": "G:\\Bulky\\BlueWolf.Utilites\\BlueWolf.Utilites.csproj",
+      "projectPath": "G:\\BlueWolfWeb\\BlueWolf.Utilites\\BlueWolf.Utilites.csproj",
       "packagesPath": "C:\\Users\\tmtes\\.nuget\\packages\\",
-      "outputPath": "G:\\Bulky\\BlueWolf.Utilites\\obj\\",
+      "outputPath": "G:\\BlueWolfWeb\\BlueWolf.Utilites\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2943,8 +2943,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "G:\\Bulky\\BlueWolf.DataAccess\\BlueWolf.DataAccess.csproj": {
-              "projectPath": "G:\\Bulky\\BlueWolf.DataAccess\\BlueWolf.DataAccess.csproj"
+            "G:\\BlueWolfWeb\\BlueWolf.DataAccess\\BlueWolf.DataAccess.csproj": {
+              "projectPath": "G:\\BlueWolfWeb\\BlueWolf.DataAccess\\BlueWolf.DataAccess.csproj"
             }
           }
         }
