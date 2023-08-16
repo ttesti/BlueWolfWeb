@@ -1,0 +1,12 @@
+G:\Bulky\BlueWolf.Models\bin\Debug\net8.0\BlueWolf.Models.deps.json
+G:\Bulky\BlueWolf.Models\bin\Debug\net8.0\BlueWolf.Models.dll
+G:\Bulky\BlueWolf.Models\bin\Debug\net8.0\BlueWolf.Models.pdb
+G:\Bulky\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.GeneratedMSBuildEditorConfig.editorconfig
+G:\Bulky\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.AssemblyInfoInputs.cache
+G:\Bulky\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.AssemblyInfo.cs
+G:\Bulky\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.csproj.CoreCompileInputs.cache
+G:\Bulky\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.sourcelink.json
+G:\Bulky\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.dll
+G:\Bulky\BlueWolf.Models\obj\Debug\net8.0\refint\BlueWolf.Models.dll
+G:\Bulky\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.pdb
+G:\Bulky\BlueWolf.Models\obj\Debug\net8.0\ref\BlueWolf.Models.dll
