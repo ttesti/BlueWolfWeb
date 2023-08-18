@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\BlueWolfApp.bundle.scp.css"
     },
     {
+      "Id": "G:\\BlueWolfWeb\\BulkyApp\\wwwroot\\css\\site-orig.css",
+      "PackagePath": "staticwebassets\\css\\site-orig.css"
+    },
+    {
       "Id": "G:\\BlueWolfWeb\\BulkyApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -19,6 +23,18 @@
     {
       "Id": "G:\\BlueWolfWeb\\BulkyApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "G:\\BlueWolfWeb\\BulkyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap cerulean.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap cerulean.css"
+    },
+    {
+      "Id": "G:\\BlueWolfWeb\\BulkyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap sandstone.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap sandstone.css"
+    },
+    {
+      "Id": "G:\\BlueWolfWeb\\BulkyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap sandstone.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap sandstone.css.map"
     },
     {
       "Id": "G:\\BlueWolfWeb\\BulkyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
