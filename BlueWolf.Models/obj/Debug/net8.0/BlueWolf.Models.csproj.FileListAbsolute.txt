@@ -10,3 +10,15 @@ G:\Bulky\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.dll
 G:\Bulky\BlueWolf.Models\obj\Debug\net8.0\refint\BlueWolf.Models.dll
 G:\Bulky\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.pdb
 G:\Bulky\BlueWolf.Models\obj\Debug\net8.0\ref\BlueWolf.Models.dll
+G:\BlueWolfWeb\BlueWolf.Models\bin\Debug\net8.0\BlueWolf.Models.deps.json
+G:\BlueWolfWeb\BlueWolf.Models\bin\Debug\net8.0\BlueWolf.Models.dll
+G:\BlueWolfWeb\BlueWolf.Models\bin\Debug\net8.0\BlueWolf.Models.pdb
+G:\BlueWolfWeb\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.GeneratedMSBuildEditorConfig.editorconfig
+G:\BlueWolfWeb\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.AssemblyInfoInputs.cache
+G:\BlueWolfWeb\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.AssemblyInfo.cs
+G:\BlueWolfWeb\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.csproj.CoreCompileInputs.cache
+G:\BlueWolfWeb\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.sourcelink.json
+G:\BlueWolfWeb\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.dll
+G:\BlueWolfWeb\BlueWolf.Models\obj\Debug\net8.0\refint\BlueWolf.Models.dll
+G:\BlueWolfWeb\BlueWolf.Models\obj\Debug\net8.0\BlueWolf.Models.pdb
+G:\BlueWolfWeb\BlueWolf.Models\obj\Debug\net8.0\ref\BlueWolf.Models.dll

@@ -22,3 +22,15 @@ G:\Bulky\BlueWolf.Utilites\obj\Debug\net8.0\BlueWolf.Utilites.dll
 G:\Bulky\BlueWolf.Utilites\obj\Debug\net8.0\refint\BlueWolf.Utilites.dll
 G:\Bulky\BlueWolf.Utilites\obj\Debug\net8.0\BlueWolf.Utilites.pdb
 G:\Bulky\BlueWolf.Utilites\obj\Debug\net8.0\ref\BlueWolf.Utilites.dll
+G:\BlueWolfWeb\BlueWolf.Utilites\bin\Debug\net8.0\BlueWolf.Utilites.deps.json
+G:\BlueWolfWeb\BlueWolf.Utilites\bin\Debug\net8.0\BlueWolf.Utilites.dll
+G:\BlueWolfWeb\BlueWolf.Utilites\bin\Debug\net8.0\BlueWolf.Utilites.pdb
+G:\BlueWolfWeb\BlueWolf.Utilites\obj\Debug\net8.0\BlueWolf.Utilites.GeneratedMSBuildEditorConfig.editorconfig
+G:\BlueWolfWeb\BlueWolf.Utilites\obj\Debug\net8.0\BlueWolf.Utilites.AssemblyInfoInputs.cache
+G:\BlueWolfWeb\BlueWolf.Utilites\obj\Debug\net8.0\BlueWolf.Utilites.AssemblyInfo.cs
+G:\BlueWolfWeb\BlueWolf.Utilites\obj\Debug\net8.0\BlueWolf.Utilites.csproj.CoreCompileInputs.cache
+G:\BlueWolfWeb\BlueWolf.Utilites\obj\Debug\net8.0\BlueWolf.Utilites.sourcelink.json
+G:\BlueWolfWeb\BlueWolf.Utilites\obj\Debug\net8.0\BlueWolf.Utilites.dll
+G:\BlueWolfWeb\BlueWolf.Utilites\obj\Debug\net8.0\refint\BlueWolf.Utilites.dll
+G:\BlueWolfWeb\BlueWolf.Utilites\obj\Debug\net8.0\BlueWolf.Utilites.pdb
+G:\BlueWolfWeb\BlueWolf.Utilites\obj\Debug\net8.0\ref\BlueWolf.Utilites.dll
