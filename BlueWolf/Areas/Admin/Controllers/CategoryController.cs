@@ -1,12 +1,12 @@
-﻿
-using BlueWolf.Data;
+﻿using BlueWolf.Data;
 using BlueWolf.DataAccess.Repository.IRepository;
 using BlueWolf.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.AccessControl;
 
-namespace BlueWolf.Controllers
+namespace BlueWolfApp.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -19,36 +19,36 @@ namespace BlueWolf.Controllers
             List<Category> objCategoryList = _unitOfWork.Category.GetAll().ToList();
             return View(objCategoryList);
         }
-        public IActionResult Create() 
-        { 
+        public IActionResult Create()
+        {
             return View();
         }
         [HttpPost]
         public IActionResult Create(Category obj)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 _unitOfWork.Category.Add(obj);
                 _unitOfWork.Save();
                 TempData["success"] = "Category Created Successfuly";
                 return RedirectToAction("Index");
             }
-            return View();          
+            return View();
         }
         public IActionResult Edit(int? id)
         {
-            if(id==null || id==0)
+            if (id == null || id == 0)
             {
                 return NotFound();
             }
             Category? categoryfromdb = _unitOfWork.Category.GetValue(u => u.Id == id);
             //Category categoryfromdb1 = _db.Categories.FirstOrDefault(u=>u.Id==id);
             //Category categoryfromdb2 = _db.Categories.Where(u => u.Id == id).FirstOrDefault();
-            if (categoryfromdb==null)
+            if (categoryfromdb == null)
             {
                 return NotFound();
             }
-                return View(categoryfromdb);
+            return View(categoryfromdb);
         }
         [HttpPost]
         public IActionResult Edit(Category obj)
@@ -79,8 +79,8 @@ namespace BlueWolf.Controllers
         public IActionResult DeletePOST(int? id)
         {
             Category? obj = _unitOfWork.Category.GetValue(u => u.Id == id);
-            if (obj==null) 
-            { 
+            if (obj == null)
+            {
                 return NotFound(obj);
             }
             _unitOfWork.Category.Remove(obj);

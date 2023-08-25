@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlueWolf.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88074e27d3da94edde11b7730aea8f54f65c55fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa6df68e1369fa12657c7817a9f37dfe58fbbb64")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlueWolf.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlueWolf.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

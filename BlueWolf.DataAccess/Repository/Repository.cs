@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BlueWolf.Data;
 using BlueWolf.DataAccess.Repository.IRepository;
-using Microsoft.EntityFrameworkCore; // may not need
+using Microsoft.EntityFrameworkCore; 
 
 namespace BlueWolf.DataAccess.Repository
 {
