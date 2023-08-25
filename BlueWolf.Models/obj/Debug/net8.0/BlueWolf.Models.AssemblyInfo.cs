@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlueWolf.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88074e27d3da94edde11b7730aea8f54f65c55fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlueWolf.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlueWolf.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

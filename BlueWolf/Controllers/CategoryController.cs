@@ -1,5 +1,6 @@
 ﻿
 using BlueWolf.Data;
+using BlueWolf.DataAccess.Repository.IRepository;
 using BlueWolf.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.AccessControl;
@@ -8,14 +9,14 @@ namespace BlueWolf.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _db;
-        public CategoryController(ApplicationDbContext db)
+        private readonly IUnitOfWork _unitOfWork;
+        public CategoryController(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
         public IActionResult Index()
         {
-            List<Category> objCategoryList = _db.Categories.ToList();
+            List<Category> objCategoryList = _unitOfWork.Category.GetAll().ToList();
             return View(objCategoryList);
         }
         public IActionResult Create() 
@@ -27,8 +28,8 @@ namespace BlueWolf.Controllers
         {
             if(ModelState.IsValid)
             {
-                _db.Categories.Add(obj);
-                _db.SaveChanges();
+                _unitOfWork.Category.Add(obj);
+                _unitOfWork.Save();
                 TempData["success"] = "Category Created Successfuly";
                 return RedirectToAction("Index");
             }
@@ -40,7 +41,7 @@ namespace BlueWolf.Controllers
             {
                 return NotFound();
             }
-            Category? categoryfromdb = _db.Categories.Find(id);
+            Category? categoryfromdb = _unitOfWork.Category.GetValue(u => u.Id == id);
             //Category categoryfromdb1 = _db.Categories.FirstOrDefault(u=>u.Id==id);
             //Category categoryfromdb2 = _db.Categories.Where(u => u.Id == id).FirstOrDefault();
             if (categoryfromdb==null)
@@ -54,8 +55,8 @@ namespace BlueWolf.Controllers
         {
             if (ModelState.IsValid)
             {
-                _db.Categories.Update(obj);
-                _db.SaveChanges();
+                _unitOfWork.Category.Update(obj);
+                _unitOfWork.Save();
                 TempData["success"] = "Category Editied Successfuly";
                 return RedirectToAction("Index");
             }
@@ -67,7 +68,7 @@ namespace BlueWolf.Controllers
             {
                 return NotFound();
             }
-            Category? categoryfromdb = _db.Categories.Find(id);
+            Category? categoryfromdb = _unitOfWork.Category.GetValue(u => u.Id == id);
             if (categoryfromdb == null)
             {
                 return NotFound();
@@ -77,13 +78,13 @@ namespace BlueWolf.Controllers
         [HttpPost, ActionName("Delete")]
         public IActionResult DeletePOST(int? id)
         {
-            Category? obj = _db.Categories.Find(id);
+            Category? obj = _unitOfWork.Category.GetValue(u => u.Id == id);
             if (obj==null) 
             { 
                 return NotFound(obj);
             }
-            _db.Categories.Remove(obj);
-            _db.SaveChanges();
+            _unitOfWork.Category.Remove(obj);
+            _unitOfWork.Save();
             TempData["success"] = "Category Deleted Successfuly";
             return RedirectToAction("Index");
         }

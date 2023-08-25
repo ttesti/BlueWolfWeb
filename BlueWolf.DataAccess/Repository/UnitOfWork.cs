@@ -20,9 +20,6 @@ namespace BlueWolf.DataAccess.Repository
             Category = new CategoryRepository(_db);
         }
 
-        //public ICategoryRepository Category { get; set; }
-        //ApplicationDbContext Db { get; set; }
-
         public void Save()
         {
             _db.SaveChanges();
