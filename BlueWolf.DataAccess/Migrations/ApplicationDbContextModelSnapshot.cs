@@ -34,7 +34,8 @@ namespace BlueWolf.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
 
                     b.HasKey("Id");
 
@@ -58,6 +59,84 @@ namespace BlueWolf.Migrations
                             Id = 3,
                             Displayorder = 3,
                             Name = "History"
+                        });
+                });
+
+            modelBuilder.Entity("BlueWolf.Models.Models.Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Framing")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("ImageRating")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ImageSize")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("Matting")
+                        .HasColumnType("bit");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "The Native American Chief Recaling his life",
+                            Framing = false,
+                            ImageRating = 1,
+                            ImageSize = 1,
+                            Matting = false,
+                            Price = 20.0,
+                            Title = "Looking Into The Past",
+                            Type = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Sunset of Chips of Glass",
+                            Framing = false,
+                            ImageRating = 1,
+                            ImageSize = 1,
+                            Matting = false,
+                            Price = 20.0,
+                            Title = "Mosaic Sunset",
+                            Type = 1
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Illustration of an Eggplant",
+                            Framing = false,
+                            ImageRating = 1,
+                            ImageSize = 1,
+                            Matting = false,
+                            Price = 20.0,
+                            Title = "Eggplant",
+                            Type = 1
                         });
                 });
 #pragma warning restore 612, 618
